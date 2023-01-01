@@ -1,0 +1,46 @@
+{
+  "name": "stability_ai_rest_api",
+  "version": "0.1",
+  "description": "Welcome_to_the_Stability_ai_REST_API_developer_previewPlease_note_this_is_an_alpha_version_of_our_new_REST_API_and_is_subject_to_change_according_toyour_feedback_Feedback_during_this_test_is_crucial_for_us_to_understand_what_the_pain_points_are_and_how_we_canimprove_it_going_forward_Changes_will_be_communicated_here_as_well_as_on_our_online_REST_API_documentation_which_can_befound_at_https__api_stability_ai_docsYour_DreamStudio_API_key_will_be_required_for_authentication__You_can_learn_more_about_API_keyshere_https__platform_stability_ai_docs_getting_started_authenticationIf_you_encounter_any_issues_please_let_us_know_in_the_API_discord_channelhttps__discord_gg_stablediffusion",
+  "license": "closed source",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "prepare": "npm run build",
+    "test": "mocha --require @babel/register --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "@babel/cli": "^7.0.0",
+    "superagent": "^5.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/plugin-proposal-do-expressions": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
+    "@babel/plugin-proposal-function-bind": "^7.0.0",
+    "@babel/plugin-proposal-function-sent": "^7.0.0",
+    "@babel/plugin-proposal-json-strings": "^7.0.0",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.0.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.0.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.0.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/plugin-proposal-pipeline-operator": "^7.0.0",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-syntax-import-meta": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^8.0.1",
+    "sinon": "^7.2.0"
+  },
+  "files": [
+    "dist"
+  ]
+}

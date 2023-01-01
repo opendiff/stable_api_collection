@@ -1,0 +1,7 @@
+.openapi-generator-ignore
+V1alphaEnginesApi.csv
+V1alphaEnginesApi.jmx
+V1alphaGenerationApi.csv
+V1alphaGenerationApi.jmx
+V1alphaUserApi.csv
+V1alphaUserApi.jmx

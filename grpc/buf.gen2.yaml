@@ -1,0 +1,42 @@
+# may need --include-wkt flag when using buf generate for dart
+#
+# If you depend on the well-known types (anything defined in google/protobuf/*.proto), you’ll need to use the --include-wkt flag
+#
+# dart uses the same plugin for gRPC, just have to pass an option
+#
+# Failure: too many remote plugins in a single request: got 14, limit is 10
+#
+version: v1
+plugins:
+  
+  # Javascript
+  - plugin: buf.build/grpc/web
+    opt:
+    - mode=grpcwebtext
+    out: gen/js
+  - plugin: buf.build/protocolbuffers/js
+    out: gen/js
+
+  # C#
+  - plugin: buf.build/grpc/csharp
+    out: gen/csharp
+  - plugin: buf.build/protocolbuffers/csharp
+    out: gen/csharp
+
+  # Swift
+  - plugin: buf.build/grpc/swift
+    out: gen/swift
+  - plugin: buf.build/apple/swift
+    out: gen/swift
+
+  # cpp
+  - plugin: buf.build/grpc/cpp
+    out: gen/cpp
+  - plugin: buf.build/protocolbuffers/cpp
+    out: gen/cpp
+
+  # java
+  - plugin: buf.build/grpc/java
+    out: gen/java
+  - plugin: buf.build/protocolbuffers/java
+    out: gen/java

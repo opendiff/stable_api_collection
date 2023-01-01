@@ -1,0 +1,8 @@
+version: v1
+name: buf.build/pro/stability-sdk
+breaking:
+  use:
+    - FILE
+lint:
+  use:
+    - DEFAULT

@@ -1,0 +1,59 @@
+# may need --include-wkt flag when using buf generate for dart
+#
+# If you depend on the well-known types (anything defined in google/protobuf/*.proto), you’ll need to use the --include-wkt flag
+#
+# dart uses the same plugin for gRPC, just have to pass an option
+#
+# Failure: too many remote plugins in a single request: got 14, limit is 10
+#
+version: v1
+plugins:
+  # Dart
+  - remote: buf.build/protocolbuffers/plugins/dart:v20.0.1-1
+    opt: grpc
+    out: gen/dart
+  
+  # Python
+  - remote: buf.build/protocolbuffers/plugins/python:v21.5.0-1
+    out: gen/python
+  - remote: buf.build/grpc/plugins/python:v1.48.0-1
+    out: gen/python
+  
+  # Golang
+  - plugin: buf.build/grpc/go
+    out: gen/go
+    opt:
+    - paths=source_relative
+  - plugin: buf.build/protocolbuffers/go
+    out: gen/go
+    opt:
+    - paths=source_relative
+
+  # Ruby
+  - plugin: buf.build/grpc/ruby
+    out: gen/ruby
+  - plugin: buf.build/protocolbuffers/ruby
+    out: gen/ruby
+
+  # Kotlin
+  - plugin: buf.build/grpc/kotlin
+    out: gen/kotlin
+  - plugin: buf.build/protocolbuffers/kotlin
+    out: gen/kotlin
+
+  # objc
+  - plugin: buf.build/grpc/objc
+    out: gen/objc
+  - plugin: buf.build/protocolbuffers/objc
+    out: gen/objc
+
+  # php
+  - plugin: buf.build/grpc/php
+    out: gen/php
+  - plugin: buf.build/protocolbuffers/php
+    out: gen/php
+
+#
+# Can't add any more languages
+# Failure: too many remote plugins in a single request: got 12, limit is 10
+#

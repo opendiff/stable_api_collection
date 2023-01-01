@@ -1,0 +1,14 @@
+.gitignore
+.openapi-generator-ignore
+Api.ts
+AuthStorage.ts
+README.md
+V1alphaEnginesApi.ts
+V1alphaGenerationApi.ts
+V1alphaUserApi.ts
+git_push.sh
+index.ts
+models.ts
+package.json
+tsconfig.json
+tslint.json

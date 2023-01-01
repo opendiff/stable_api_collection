@@ -1,0 +1,16 @@
+.openapi-generator-ignore
+README.md
+config.nim
+openapiclient.nim
+openapiclient/apis/api_v1alpha_engines.nim
+openapiclient/apis/api_v1alpha_generation.nim
+openapiclient/apis/api_v1alpha_user.nim
+openapiclient/models/model_account_response_body.nim
+openapiclient/models/model_balance_response_body.nim
+openapiclient/models/model_engine.nim
+openapiclient/models/model_error.nim
+openapiclient/models/model_list_engines_response_body.nim
+openapiclient/models/model_organization_membership.nim
+openapiclient/models/model_text_prompt.nim
+openapiclient/models/model_text_to_image_request_body.nim
+sample_client.nim

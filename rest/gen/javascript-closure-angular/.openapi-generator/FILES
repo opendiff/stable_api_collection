@@ -1,0 +1,12 @@
+.openapi-generator-ignore
+API/Client/AccountResponseBody.js
+API/Client/BalanceResponseBody.js
+API/Client/Engine.js
+API/Client/Error.js
+API/Client/ListEnginesResponseBody.js
+API/Client/OrganizationMembership.js
+API/Client/TextPrompt.js
+API/Client/TextToImageRequestBody.js
+API/Client/V1alphaEnginesApi.js
+API/Client/V1alphaGenerationApi.js
+API/Client/V1alphaUserApi.js

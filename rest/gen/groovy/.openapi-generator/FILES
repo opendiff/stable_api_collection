@@ -1,0 +1,15 @@
+.openapi-generator-ignore
+README.md
+build.gradle
+src/main/groovy/org/openapitools/api/ApiUtils.groovy
+src/main/groovy/org/openapitools/api/V1alphaEnginesApi.groovy
+src/main/groovy/org/openapitools/api/V1alphaGenerationApi.groovy
+src/main/groovy/org/openapitools/api/V1alphaUserApi.groovy
+src/main/groovy/org/openapitools/model/AccountResponseBody.groovy
+src/main/groovy/org/openapitools/model/BalanceResponseBody.groovy
+src/main/groovy/org/openapitools/model/Engine.groovy
+src/main/groovy/org/openapitools/model/Error.groovy
+src/main/groovy/org/openapitools/model/ListEnginesResponseBody.groovy
+src/main/groovy/org/openapitools/model/OrganizationMembership.groovy
+src/main/groovy/org/openapitools/model/TextPrompt.groovy
+src/main/groovy/org/openapitools/model/TextToImageRequestBody.groovy

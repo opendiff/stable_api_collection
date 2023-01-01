@@ -1,0 +1,17 @@
+.openapi-generator-ignore
+Dockerfile
+README.md
+_client.sh
+client.sh
+client.sh.bash-completion
+docs/AccountResponseBody.md
+docs/BalanceResponseBody.md
+docs/Engine.md
+docs/Error.md
+docs/ListEnginesResponseBody.md
+docs/OrganizationMembership.md
+docs/TextPrompt.md
+docs/TextToImageRequestBody.md
+docs/V1alphaEnginesApi.md
+docs/V1alphaGenerationApi.md
+docs/V1alphaUserApi.md

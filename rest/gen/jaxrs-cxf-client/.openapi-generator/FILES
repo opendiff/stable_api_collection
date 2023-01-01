@@ -1,0 +1,16 @@
+.openapi-generator-ignore
+pom.xml
+src/gen/java/org/openapitools/api/V1alphaEnginesApi.java
+src/gen/java/org/openapitools/api/V1alphaGenerationApi.java
+src/gen/java/org/openapitools/api/V1alphaUserApi.java
+src/gen/java/org/openapitools/model/AccountResponseBody.java
+src/gen/java/org/openapitools/model/BalanceResponseBody.java
+src/gen/java/org/openapitools/model/Engine.java
+src/gen/java/org/openapitools/model/Error.java
+src/gen/java/org/openapitools/model/ListEnginesResponseBody.java
+src/gen/java/org/openapitools/model/OrganizationMembership.java
+src/gen/java/org/openapitools/model/TextPrompt.java
+src/gen/java/org/openapitools/model/TextToImageRequestBody.java
+src/test/java/org/openapitools/api/V1alphaEnginesApiTest.java
+src/test/java/org/openapitools/api/V1alphaGenerationApiTest.java
+src/test/java/org/openapitools/api/V1alphaUserApiTest.java

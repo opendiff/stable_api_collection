@@ -1,0 +1,17 @@
+.openapi-generator-ignore
+build.sbt
+project/build.properties
+src/main/scala/org/openapitools/client/api/AccountResponseBody.scala
+src/main/scala/org/openapitools/client/api/BalanceResponseBody.scala
+src/main/scala/org/openapitools/client/api/DateTimeCodecs.scala
+src/main/scala/org/openapitools/client/api/Engine.scala
+src/main/scala/org/openapitools/client/api/Error.scala
+src/main/scala/org/openapitools/client/api/HelperCodecs.scala
+src/main/scala/org/openapitools/client/api/ListEnginesResponseBody.scala
+src/main/scala/org/openapitools/client/api/OrganizationMembership.scala
+src/main/scala/org/openapitools/client/api/QueryParamTypeclass.scala
+src/main/scala/org/openapitools/client/api/TextPrompt.scala
+src/main/scala/org/openapitools/client/api/TextToImageRequestBody.scala
+src/main/scala/org/openapitools/client/api/V1alphaEnginesApi.scala
+src/main/scala/org/openapitools/client/api/V1alphaGenerationApi.scala
+src/main/scala/org/openapitools/client/api/V1alphaUserApi.scala

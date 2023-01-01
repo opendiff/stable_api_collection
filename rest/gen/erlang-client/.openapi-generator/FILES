@@ -1,0 +1,16 @@
+.openapi-generator-ignore
+README.md
+rebar.config
+src/openapi.app.src
+src/openapi_account_response_body.erl
+src/openapi_balance_response_body.erl
+src/openapi_engine.erl
+src/openapi_error.erl
+src/openapi_list_engines_response_body.erl
+src/openapi_organization_membership.erl
+src/openapi_text_prompt.erl
+src/openapi_text_to_image_request_body.erl
+src/openapi_utils.erl
+src/openapi_v1alpha_engines_api.erl
+src/openapi_v1alpha_generation_api.erl
+src/openapi_v1alpha_user_api.erl
